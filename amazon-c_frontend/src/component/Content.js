@@ -1,29 +1,22 @@
 import React from "react";
 import "./css/Content.css";
-// import StarBorderIcon from "@material-ui/icons/StarBorder";
-import StarIcon from "@material-ui/icons/Star";
 import data from "./data";
+import Rating from "./Rating";
 
 function Content() {
   return (
     <div className="content">
       {data.map((info) => (
         <div key={info.id} className="card">
-          <a href="#">
+          <a href="/product">
             <img src={info.image} className="img" alt="product_img" />
           </a>
           <div className="card__body">
-            <a href="#">
+            <a href="/product">
               <h2>{info.name}</h2>
             </a>
           </div>
-          <div className="rating">
-            <StarIcon style={{ fontSize: "20px" }} />
-            <StarIcon style={{ fontSize: "20px", marginLeft: "3px" }} />
-            <StarIcon style={{ fontSize: "20px", marginLeft: "3px" }} />
-            <StarIcon style={{ fontSize: "20px", marginLeft: "3px" }} />
-            <StarIcon style={{ fontSize: "20px", marginLeft: "3px" }} />
-          </div>
+          <Rating ratingPoint={info.rating} />
           <div className="price">${info.price}</div>
         </div>
       ))}
