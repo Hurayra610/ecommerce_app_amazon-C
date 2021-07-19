@@ -2,7 +2,7 @@ import React from "react";
 import StarBorderIcon from "@material-ui/icons/StarBorder";
 import StarIcon from "@material-ui/icons/Star";
 
-function Rating({ ratingPoint }) {
+function Rating({ ratingPoint, review }) {
   return (
     <div className="rating">
       {ratingPoint == 1 || ratingPoint > 1 ? (
@@ -30,6 +30,7 @@ function Rating({ ratingPoint }) {
       ) : (
         <StarBorderIcon style={{ fontSize: "20px", marginLeft: "3px" }} />
       )}
+      <div className="review">{review} reviews</div>
     </div>
   );
 }

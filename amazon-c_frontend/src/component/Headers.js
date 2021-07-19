@@ -5,7 +5,7 @@ function Headers() {
   return (
     <div className="headers">
       <div className="headers__name">
-        <a href="#">amazon-C</a>
+        <a href="/">amazon-C</a>
       </div>
       <div className="search">
         <input type="text" placeholder="Search" className="input" />

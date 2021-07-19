@@ -7,6 +7,7 @@ const data = [
     price: 110,
     rating: 4,
     quantity: 4,
+    numReview: 17,
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ const data = [
     price: 189,
     rating: 5,
     quantity: 2,
+    numReview: 12,
   },
   {
     id: 3,
@@ -24,6 +26,7 @@ const data = [
     price: 78,
     rating: 3,
     quantity: 0,
+    numReview: 88,
   },
   {
     id: 4,
@@ -33,6 +36,7 @@ const data = [
     price: 98,
     rating: 4,
     quantity: 5,
+    numReview: 75,
   },
   {
     id: 5,
@@ -41,6 +45,7 @@ const data = [
     price: 88,
     rating: 4,
     quantity: 1,
+    numReview: 75,
   },
   {
     id: 6,
@@ -50,6 +55,7 @@ const data = [
     price: 99,
     rating: 1,
     quantity: 8,
+    numReview: 47,
   },
   {
     id: 7,
@@ -59,6 +65,7 @@ const data = [
     price: 55,
     rating: 3,
     quantity: 6,
+    numReview: 55,
   },
   {
     id: 8,
@@ -68,6 +75,7 @@ const data = [
     price: 78,
     rating: 2,
     quantity: 4,
+    numReview: 37,
   },
   {
     id: 9,
@@ -77,6 +85,7 @@ const data = [
     price: 110,
     rating: 4,
     quantity: 1,
+    numReview: 77,
   },
   {
     id: 10,
@@ -86,6 +95,7 @@ const data = [
     price: 189,
     rating: 3,
     quantity: 0,
+    numReview: 64,
   },
   {
     id: 11,
@@ -94,6 +104,7 @@ const data = [
     price: 78,
     rating: 3,
     quantity: 9,
+    numReview: 75,
   },
   {
     id: 12,
@@ -103,6 +114,7 @@ const data = [
     price: 98,
     rating: 4,
     quantity: 3,
+    numReview: 91,
   },
   {
     id: 13,
@@ -111,6 +123,7 @@ const data = [
     price: 88,
     rating: 4,
     quantity: 7,
+    numReview: 63,
   },
   {
     id: 14,
@@ -120,6 +133,7 @@ const data = [
     price: 99,
     rating: 3.5,
     quantity: 12,
+    numReview: 35,
   },
   {
     id: 15,
@@ -129,6 +143,7 @@ const data = [
     price: 55,
     rating: 3,
     quantity: 4,
+    numReview: 44,
   },
   {
     id: 16,
@@ -138,6 +153,7 @@ const data = [
     price: 78,
     rating: 4,
     quantity: 8,
+    numReview: 71,
   },
 ];
 
