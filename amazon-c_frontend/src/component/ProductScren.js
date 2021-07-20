@@ -17,9 +17,9 @@ function ProductScren(props) {
         <div key={product.id}>
           <Headers />
           <div className="productScreen">
-            <Link to="/">
+            {/* <Link to="/">
               <button className="backBtn">Back</button>
-            </Link>
+            </Link> */}
             <div className="imgProduct">
               <img src={product.image} alt={product.name} />
             </div>
@@ -66,6 +66,7 @@ function ProductScren(props) {
                     <option value={product.quantity}>2</option>
                     <option value={product.quantity}>3</option>
                     <option value={product.quantity}>4</option>
+                    <option value={product.quantity}>5</option>
                   </select>
                 </li>
                 <button className="btn_Cart">Add to Cart</button>
