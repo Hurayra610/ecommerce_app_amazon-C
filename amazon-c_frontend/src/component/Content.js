@@ -1,22 +1,13 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext } from "react";
 import "./css/Content.css";
-// import data from "./data";
 import Rating from "./Rating";
-import axios from "axios";
+import { DataContext } from "./DataContext";
 
 function Content() {
-  const [data, setData] = useState([]);
-  useEffect(() => {
-    const fetchData = async () => {
-      const { data } = await axios.get("/api/product");
-      setData(data);
-    };
-    fetchData();
-  }, []);
-
+  const [datas] = useContext(DataContext);
   return (
     <div className="content">
-      {data.map((info) => (
+      {datas.map((info) => (
         <div key={info.id} className="card">
           <a href={`/product/${info.id}`}>
             <img src={info.image} className="img" alt="product_img" />

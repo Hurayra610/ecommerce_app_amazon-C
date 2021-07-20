@@ -100,8 +100,6 @@ li {
 .rating {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding-left: 0;
 }
 
 .option {
