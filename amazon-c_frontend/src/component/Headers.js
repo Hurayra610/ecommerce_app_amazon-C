@@ -14,8 +14,8 @@ function Headers() {
         </button>
       </div>
       <div className="headers__options">
-        <a href="#">Cart</a>
-        <a href="#">Sign In</a>
+        <a href="/cart">Cart</a>
+        <a href="signIn">Sign In</a>
       </div>
     </div>
   );

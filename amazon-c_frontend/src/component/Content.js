@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./css/Content.css";
-import data from "./data";
+// import data from "./data";
 import Rating from "./Rating";
+import axios from "axios";
 
 function Content() {
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    const fetchData = async () => {
+      const { data } = await axios.get("/api/product");
+      setData(data);
+    };
+    fetchData();
+  }, []);
+
   return (
     <div className="content">
       {data.map((info) => (

@@ -4,7 +4,6 @@ import Rating from "./Rating";
 import "./css/ProductScren.css";
 import { Link } from "react-router-dom";
 import Headers from "./Headers";
-// import Headers from "./Headers";
 
 function ProductScren(props) {
   const idMatch = props.match.params.id;
@@ -49,7 +48,7 @@ function ProductScren(props) {
             </li>
             <li>
               <label htmlFor="qty">Quantity: </label>
-              <select name="qty">
+              <select className="option" name="qty">
                 <option value={product.quantity}>1</option>
                 <option value={product.quantity}>2</option>
                 <option value={product.quantity}>3</option>

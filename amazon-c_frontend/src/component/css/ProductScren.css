@@ -103,3 +103,9 @@ li {
   justify-content: center;
   padding-left: 0;
 }
+
+.option {
+  border-width: 0;
+  outline-width: 0;
+  margin-left: 10px;
+}

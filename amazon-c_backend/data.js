@@ -4,7 +4,7 @@ const data = [
     name: "Nike Slim T-Shirt-N",
     image:
       "https://images-na.ssl-images-amazon.com/images/I/61FF%2BzoZgYL._UX466_.jpg",
-    price: 200,
+    price: 110,
     rating: 4,
     quantity: 4,
     numReview: 17,
@@ -157,4 +157,4 @@ const data = [
   },
 ];
 
-export default data;
+exports.product = data;
